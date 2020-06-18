@@ -1,0 +1,13 @@
+{
+    "emmet.triggerExpansionOnTab": true,
+    "editor.codeActionsOnSave": null,
+    "liveServer.s.AdvanceCustomBrowserCmdLine": ""
+
+    "emmet.includeLanguages": {
+        "erb": "html"
+    }
+    "files.associations": {
+        "*.erb": "erb" 
+    }
+
+}
