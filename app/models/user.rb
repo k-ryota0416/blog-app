@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: users
@@ -29,6 +31,6 @@ class User < ApplicationRecord
   end
 
   def display_name
-    self.email.split('@').first
+    email.split('@').first
   end
 end
